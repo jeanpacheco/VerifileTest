@@ -1,11 +1,16 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Attach to .NET Functions",
-            "type": "coreclr",
-            "request": "attach",
-            "processId": "${command:azureFunctions.pickProcess}"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Functions",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "host start",
+      "program": "${workspaceFolder}/bin/Debug/net8.0/VerifileTest.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/bin/Debug/net8.0",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
 }

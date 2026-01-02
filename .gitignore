@@ -262,3 +262,11 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+GetPersonInfo.cs
+__azurite_db_blob__.json
+__azurite_db_blob_extent__.json
+.gitignore
+__azurite_db_queue__.json
+__azurite_db_queue_extent__.json
+__azurite_db_table__.json
+__blobstorage__/662de361-3bea-4875-b78a-0342c4512ad1
