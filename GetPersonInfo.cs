@@ -3,7 +3,6 @@ using System.Text.Json;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json.Linq;
 using Verifile.Models;
 using Verifile.Repositories;
 
